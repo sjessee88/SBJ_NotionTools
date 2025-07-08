@@ -1,7 +1,7 @@
 async function getWeather() {
   try {
     // Step 1: Get user's location by IP
-    const ipRes = await fetch("http://ip-api.com/json/");
+    const ipRes = await fetch("https://ip-api.com/json/");
     const ipData = await ipRes.json();
     const { city, lat, lon } = ipData;
 
