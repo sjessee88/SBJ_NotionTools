@@ -1,6 +1,8 @@
-body {
-  font-family: system-ui;
-  background: white;
-  color: white;
-  text-align: center;
+#weather-widget {
+  font-family: Arial, sans-serif;
+  background: #e0f7fa;
+  padding: 15px;
+  border-radius: 8px;
+  width: 250px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
