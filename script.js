@@ -4,7 +4,7 @@ async function getWeather(lat, lon) {
     const url = `https://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${lat},${lon}`;
 
     const response = await fetch(url);
-    if (!response.ok) throw new Error("Weather API error");
+    if (!response.ok) throw new Error("Weather error");
 
     const data = await response.json();
 
